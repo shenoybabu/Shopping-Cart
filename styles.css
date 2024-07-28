@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.landing {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bg-image {
+    background-image: url('C:\Project Shopping cart/landing.jpg');
+    background-size: cover;
+    height: 400px;
+    opacity: 0.7;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.products {
+    padding: 20px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.product img {
+    height: 100px;
+    width: 100px;
+}
